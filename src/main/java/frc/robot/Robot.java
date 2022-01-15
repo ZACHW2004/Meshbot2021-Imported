@@ -54,8 +54,8 @@ m_myRobot.setMaxOutput(0.4);
     // That means that the Y axis drives forward
     // and backward, and the X turns left and right.
     m_myRobot.arcadeDrive(
-      xbox0.getRightY(),
-      xbox0.getRightX()
+      xbox0.getLeftX(),
+      xbox0.getLeftY()
     );
   }
 }
